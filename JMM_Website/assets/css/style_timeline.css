@@ -1,0 +1,260 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://Alvarez.is
+ *
+ * Project Name: NYC Design
+ * Version: 1.0
+ * Date: 04-20-2014
+ * URL: 
+ */
+
+
+/* ==========================================================================
+   Base Styles, Bootstrap Modifications & Fonts Import
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/*.phil{
+    width:100%;
+    height:auto;
+}*/
+
+::-moz-selection {
+    background: #f2c2c9;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+::selection {
+    background: #16a085;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+
+.img-responsive {
+  display: block;
+  height: auto;
+  width:100%;
+  max-height:200px;
+  max-width: 300px;
+  margin:10px;
+}
+.centered {
+	text-align: center
+}
+
+.mt {
+	margin-top: 80px;
+}
+
+.mb {
+	margin-bottom: 80px;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    height:100%;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.resume_body{
+	margin-top: 53px;
+	background-image: url("../img/bg/LookingNorthFromBromley.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: top;
+}
+/* timeline */
+
+ul {
+    width: 920px; margin: 0 auto;
+}
+
+.timeline {
+  background-image: url('../img/vertical-line.png?1378694750');
+  background-repeat: repeat-y;
+  background-position: 50% 0;
+  max-width: 960px;
+  list-style-type: none;
+  margin:0px auto;
+  overflow: hidden;
+  height: auto;
+  position: relative;
+  padding: 0 0 0 0;
+}
+
+.timeline .year {
+  background: #428bca;
+  font-size: 1em;
+  line-height: 4;
+  color: #ffffff;
+  width: 6em;
+  border-radius: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 8em;
+  margin: 1em auto;
+}
+
+@media (min-width: 992px) {
+  .timeline .year {
+      margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.timeline .month {
+  display: block;
+  margin-bottom: 15px;
+  color: #7d7d7d;
+  font-size: 0.9em;
+}
+
+.timeline .month .icon {
+  margin-right: 5px;
+}
+
+.timeline .event {
+  width: 40%;
+  background: #ffffff;
+  border-color: #428bca;
+  text-align: center;
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 1.3em;
+  color: #3c3c3c;
+}
+
+/* right events */
+
+.c {
+    position:relative;
+    float: right;
+    clear: right;
+    border:1px solid #428bca;
+    border-radius: 5px;
+    z-index: 15;
+}
+
+/* left event*/
+
+.cd {
+    position:relative;
+    border:1px solid #428bca;
+    border-radius: 5px;
+    z-index: 15;
+}
+
+#social {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #f2f2f2;
+}
+
+#social i {
+	font-size: 40px;
+	color: #4a4a4a
+}
+
+#social i:hover {
+	color: #428bca
+}
+
+#workwrap {	
+	background: url(../img/work.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: scroll;
+	background-position: center center;
+	min-height: 450px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#blogpost {
+    background-color:rgba(0,0,0,0.6);
+    border:inset;
+    padding:15px;
+    border-width:3px;
+    border-color:#000;
+}
+#blogwrap {
+    background: url('../img/pinstripe_bg_full - Copy.jpg');
+    width: 100%;
+    padding-top:30px;
+    background-attachment:fixed;
+    min-height:500px;
+    background-position: top center;
+        -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#workwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#workwrap h4 {
+	font-weight: 400;
+	color: #ffffff
+}
+
+#aboutwrap {
+
+}
+#resumewrap h2{
+	font-weight: 400;
+	color: #ffffff
+}
+#resumewrap {	
+	margin-top: 0px;
+	padding-top: 53px;
+	text-align:center;
+	background-attachment: fixed;
+	background-position: center center;
+    /*margin-left:auto;
+    margin-right:auto;*/
+	width: 100%;
+	background-image: url("../img/bg/LookingNorthFromBromley.jpg");
+	background-repeat: no-repeat;
+
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
