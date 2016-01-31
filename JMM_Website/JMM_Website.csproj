@@ -273,8 +273,11 @@
     <Content Include="assets\img\team\.DS_Store" />
     <Content Include="assets\js\.DS_Store" />
     <Content Include="assets\img\MyResume.pdf" />
+    <None Include="Properties\PublishProfiles\jmcconnell %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\jmcconnell - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\jmcconnell - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\jmcconnell.pubxml" />
+    <None Include="Properties\PublishProfiles\jmmcconnell.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

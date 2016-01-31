@@ -14,10 +14,10 @@
    ========================================================================== */
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-/*.phil{
+.phil{
     width:100%;
     height:auto;
-}*/
+}
 
 ::-moz-selection {
     background: #f2c2c9;
@@ -77,7 +77,7 @@ body {
 /* timeline */
 
 ul {
-    width: 920px; margin: 0 auto;
+    width:auto; margin: 0 auto;
 }
 
 .timeline {
@@ -239,7 +239,7 @@ ul {
 	margin-top: 0px;
 	padding-top: 53px;
 	text-align:center;
-	background-attachment: fixed;
+	background-attachment:scroll;
 	background-position: center center;
     /*margin-left:auto;
     margin-right:auto;*/
