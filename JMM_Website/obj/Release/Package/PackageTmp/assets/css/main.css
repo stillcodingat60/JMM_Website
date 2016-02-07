@@ -20,11 +20,20 @@ select,
 textarea {
     color: #222;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    height:100%;
 
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+/*
 body {
     font-size: 1em;
     line-height: 1.4;
-}
+}*/
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -131,8 +140,6 @@ border: 0px solid transparent;
 	background-color: #16a085;
 	color: white;
 }
-
-
 
 hr {
     position: relative;

@@ -62,13 +62,12 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li> <a href="http://jmmcconnell-blog.azurewebsites.net/Home/Index" class="smoothScroll">Blog Home</a></li>
-                                <li> <a href="http://jmmcconnell-blog.azurewebsites.net/Posts/Index" class="smoothScroll">Blog Entries</a></li>
+                                <li> <a href="http://jmmcconnell-blog.azurewebsites.net/Posts/Index" class="smoothScroll">Blog Home</a></li>
                                 <li> <a href="http://jmmcconnell-blog.azurewebsites.net/Home/About" class="smoothScroll">About This Blog</a></li>
                                 <li> <a href="http://jmmcconnell-blog.azurewebsites.net/Home/Contact" class="smoothScroll">Contact</a></li>
                             </ul>
                             <li> <a href="#contact" class="smoothScroll"> Contact</a></li>
-</div><!--/.nav-collapse -->
+                </div><!--/.nav-collapse -->
             </div>
         </div>
     </div>
@@ -322,18 +321,20 @@
                                 </div><!-- /.modal-content -->
                             </div><!-- /.modal-dialog -->
                         </div><!-- /.modal -->
+
                         <!-- PORTFOLIO IMAGE 2 - Palindrome -->
-                        <div class="col-md-4">
+                        <div class="col-md-4" id="JScripts">
                             <div class="grid mask">
                                 <figure>
-                                    <img class="img-rounded" src="assets/img/JS2image.jpg" height="285" width="355" alt="">
+                                    <img class="img-rounded" src="assets/img/JS2image.jpg" alt="Javascript Routines">
                                     <figcaption>
-                                        <h5>Javascript Program</h5>
+                                        <h5>ECOMMERCE</h5>
                                         <a data-toggle="modal" href="#myModal2" class="btn btn-primary btn-lg">Take a Look</a>
                                     </figcaption><!-- /figcaption -->
                                 </figure><!-- /figure -->
                             </div><!-- /grid-mask -->
-                        </div><!-- /col -->
+                        <div><!-- /col -->
+
                         <!-- myMODAL2 SHOW THE PORTFOLIO IMAGE. For the Javascript Project. -->
 
                         <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -344,7 +345,31 @@
                                         <h4 class="modal-title">Javascript - PALINDROME</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <div class="row">
+                                        <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+                                            <li class="active"><a href="#Palindrome" data-toggle="tab">Palindrome</a></li>
+                                            <li><a href="#Factorial" data-toggle="tab">Factorial</a></li>
+                                            <li><a href="#yellow" data-toggle="tab">Yellow</a></li>
+                                            <li><a href="#green" data-toggle="tab">Green</a></li>
+                                            <li><a href="#blue" data-toggle="tab">Blue</a></li>
+                                        </ul>
+                                        <div id="my-tab-content" class="tab-content">                                         
+                                                <div class="tab-pane" id="yellow">
+                                                <h1>Yellow</h1>
+                                                <p>yellow yellow yellow yellow yellow</p>
+                                            </div>
+                                            <div class="tab-pane" id="green">
+                                                <h1>Green</h1>
+                                                <p>green green green green green</p>
+                                            </div>
+                                            <div class="tab-pane" id="blue">
+                                                <h1>Blue</h1>
+                                                <p>blue blue blue blue blue</p>
+                                            </div>
+                                        </div>
+                                        <div class="row" id="Palindrome">
+                                            <div class="tab-pane active" id="Palindrome">
+                                                <h1>Palindrome</h1>
+                                            </div>
                                             <div class="col-md-4">
                                                 <p>Enter a word to see if it is a Palindrome. A palindrome is a word spelled the same backward and forward.</p>
 
@@ -410,6 +435,10 @@
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                     <h4 class="modal-title">Javascript - FACTORIAL</h4>
+                                    <div class="tab-pane" id="orange">
+                                        <h1>Factorial</h1>
+                                        
+                                    </div>
                                 </div>
                                 <div class="modal-body">
                                     <div class="row">

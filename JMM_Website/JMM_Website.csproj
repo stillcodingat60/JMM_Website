@@ -193,10 +193,8 @@
     <Content Include="assets\img\images.jpg" />
     <Content Include="assets\img\iphone.png" />
     <Content Include="assets\img\javascript-logo-png.png" />
-    <Content Include="assets\img\Javascript.png" />
     <Content Include="assets\img\js-logo-badge-512.png" />
-    <Content Include="assets\img\JS2image.jpg" />
-    <Content Include="assets\img\JS_image.jpg" />
+    <Content Include="assets\img\JSModal.png" />
     <Content Include="assets\img\LSLogo_RGB.png" />
     <Content Include="assets\img\macbook.png" />
     <Content Include="assets\img\portfolio\folio01.jpg" />
