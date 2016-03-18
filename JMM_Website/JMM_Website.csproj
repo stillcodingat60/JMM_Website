@@ -179,6 +179,8 @@
     <Content Include="assets\css\main.css" />
     <Content Include="assets\css\style_timeline.css" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\img\0052.gif" />
+    <Content Include="assets\img\101.png" />
     <Content Include="assets\img\best-javascript-sites.jpg" />
     <Content Include="assets\img\bg\bath-county.jpg" />
     <Content Include="assets\img\bg\divider1.jpg" />
@@ -189,14 +191,22 @@
     <Content Include="assets\img\bg\home.jpg" />
     <Content Include="assets\img\bg\RehobothBay.jpg" />
     <Content Include="assets\img\CF.png" />
+    <Content Include="assets\img\china farms.jpg" />
+    <Content Include="assets\img\coral reef.jpg" />
+    <Content Include="assets\img\greek seaside sized.jpg" />
+    <Content Include="assets\img\greek seaside.jpg" />
     <Content Include="assets\img\header_bg.jpg" />
+    <Content Include="assets\img\ILRlogo.png" />
     <Content Include="assets\img\images.jpg" />
+    <Content Include="assets\img\india.jpg" />
     <Content Include="assets\img\iphone.png" />
     <Content Include="assets\img\javascript-logo-png.png" />
     <Content Include="assets\img\js-logo-badge-512.png" />
     <Content Include="assets\img\JSModal.png" />
+    <Content Include="assets\img\lavender.jpg" />
     <Content Include="assets\img\LSLogo_RGB.png" />
     <Content Include="assets\img\macbook.png" />
+    <Content Include="assets\img\pink sea.jpg" />
     <Content Include="assets\img\portfolio\folio01.jpg" />
     <Content Include="assets\img\portfolio\folio02.png" />
     <Content Include="assets\img\portfolio\folio03.jpg" />
@@ -207,16 +217,20 @@
     <Content Include="assets\img\portfolio\folio07.jpg" />
     <Content Include="assets\img\portfolio\folio08.jpg" />
     <Content Include="assets\img\portfolio\folio09.jpg" />
+    <Content Include="assets\img\river of red.jpg" />
+    <Content Include="assets\img\springtime in japan.jpg" />
     <Content Include="assets\img\SSI-banner-2.jpg" />
     <Content Include="assets\img\SSI.PNG" />
     <Content Include="assets\img\SSI2 %282%29.PNG" />
     <Content Include="assets\img\SSI2.PNG" />
     <Content Include="assets\img\bg\LookingNorthFromBromley.jpg" />
     <Content Include="assets\img\SSI_Square-Image.jpg" />
+    <Content Include="assets\img\tanzania lake.jpg" />
     <Content Include="assets\img\team\team01.jpg" />
     <Content Include="assets\img\team\team02.jpg" />
     <Content Include="assets\img\team\team03.jpg" />
     <Content Include="assets\img\team\team04.jpg" />
+    <Content Include="assets\img\tulip fields.jpg" />
     <Content Include="assets\img\vertical-line.png" />
     <Content Include="assets\js\bootstrap.js" />
     <Content Include="assets\js\bootstrap.min.js" />
@@ -251,7 +265,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="index.html" />
+    <Content Include="Index.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="assets\.DS_Store" />
@@ -275,6 +289,7 @@
     <None Include="Properties\PublishProfiles\jmcconnell - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\jmcconnell - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\jmcconnell.pubxml" />
+    <None Include="Properties\PublishProfiles\jmmcconnell %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\jmmcconnell.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -316,7 +331,9 @@
     <Content Include="Scripts\SyntaxHighlighter\shCore.js" />
     <Content Include="Scripts\SyntaxHighlighter\shLegacy.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

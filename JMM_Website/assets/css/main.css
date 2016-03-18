@@ -382,6 +382,9 @@ a:after {
 #footerwrap h4 {
 	color: white;
 }
+#footerwrap h5 {
+    color: inherit;
+}
 
 
 /* ==========================================================================

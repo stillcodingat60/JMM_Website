@@ -1,6 +1,6 @@
 function processPalindrome() {
 
-    var input = document.getElementById("chkPal").value;
+    var input = document.getElementById("chkPal").value; //chkPal is the id of the corresponding html input tag 
     var arr1 = input.split("");  //converts a string to an array
 
     arr1.reverse();  //reverses an array
@@ -16,7 +16,7 @@ function processPalindrome() {
     var arr3 = arr2.replace(/,/g, "");  // replace all , with ""
 
     if (input == arr3) {
-        $("#yourWord").text(arr3 + " is a Palindrome!");
+        $("#yourWord").text(arr3 + " is a Palindrome!"); //.text is js to insert the text into the html input tag id yourWord
     }
     else {
         $("#yourWord").text(arr3 + " which is gobblygook!");
